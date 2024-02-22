@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Response;
+namespace App\Response\Presenter;
 
 use App\Request\Validation\ValidationError;
 use App\Request\Validation\ValidationErrorCollection;

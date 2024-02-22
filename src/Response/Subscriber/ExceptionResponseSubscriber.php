@@ -2,9 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Response;
+namespace App\Response\Subscriber;
 
 use App\Exception\InvalidRequest;
+use App\Response\ExceptionResponseStatusCode;
+use App\Response\Presenter\ValidationErrorPresenter;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
