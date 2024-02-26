@@ -1,0 +1,4 @@
+shorten_url:
+    path: /shorten
+    controller: App\Url\Infrastructure\UI\API\Controller\UrlShortenerController
+    methods: POST
